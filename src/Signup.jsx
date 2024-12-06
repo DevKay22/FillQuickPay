@@ -24,38 +24,47 @@ const Signup = () => {
                     <div className="hr1"></div>
                 </div>
 
-                <div>
-                    <label htmlFor="name"> Name</label>
-                    <input type="text" name="" id="" />
+                <form action="/" method="get">
+                <div className="name">
+                    <label htmlFor="firstname"> Name</label>
+                    <input type="text" name="firstname" id="firstname"
+                     placeholder="Enter your name" />
                 </div>
 
-                <div>
+                <div className="name">
                     <label htmlFor="email">Email</label>
-                    <input type="email" name="" id="" />
+                    <input type="email" name="email" id="email"
+                     placeholder="Enter your email" />
                 </div>
 
-                <div>
+                <div className="name">
                     <label htmlFor="password">Password</label>
-                    <input type="password" name="" id="" />
+                    <input type="password" name="password" id="password" 
+                    placeholder="* * * * * * *" />
+                </div>
+
+                <div className="name">
+                    <label htmlFor="repassword">Retype password</label>
+                    <input type="password" name="repassword" id="repassword"
+                     placeholder="* * * * * * *"  />
                 </div>
 
                 <div>
-                    <label htmlFor="password">Retype password</label>
-                    <input type="password" name="" id="" />
+                    <input type="checkbox" name="accept" id="accept" value={"accept"} />
+                    <label htmlFor="accept" className="note">I accepted all terms and conditions</label>
                 </div>
 
-                <div>
-                    <input type="checkbox" name="" id="" />
-                    <label htmlFor="">I accepted all terms and conditions</label>
-                </div>
+                <div >
+                    <button type="submit" className="btn">Sign in</button>
+                </div> 
+                
+                </form>
 
-                <div>
-                    <button type="submit">Sign in</button>
-                </div>
+               
 
             </div>
             <div className="bottom">
-           
+                <p>Already have an account? <span className="last">Sign in</span></p>
             </div>
         </div>
         <div className="banner"></div>
