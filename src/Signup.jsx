@@ -1,3 +1,4 @@
+import img from './assets/Images/chart1.jpeg';
 import { FcGoogle } from "react-icons/fc";
 const Signup = () => {
   return (
@@ -55,7 +56,7 @@ const Signup = () => {
                 </div>
 
                 <div >
-                    <button type="submit" className="btn">Sign in</button>
+                    <button type="submit" className="btn">Sign up</button>
                 </div> 
                 
                 </form>
@@ -67,7 +68,19 @@ const Signup = () => {
                 <p>Already have an account? <span className="last">Sign in</span></p>
             </div>
         </div>
-        <div className="banner"></div>
+        <div className="banner">
+            <h1>
+                Welcome To FillQuickPay! Join Now For Seemless Payments
+            </h1>
+
+            <p>
+                FillQuickPay is a simple and secure payment platform that
+                 allows you to make payments quickly and easily. 
+                 Sign up today and enjoy a better shopping experience!
+            </p>
+
+            <img src={img} alt="" />
+        </div>
     </div>
     </div>
     
