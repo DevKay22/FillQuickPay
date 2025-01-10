@@ -162,6 +162,7 @@ padding-top: 0.5em;
   height: 2rem;
   margin-top: 0.5em;
   margin-bottom: 0.8em;
+  outline: none;
 }
 
 .name>input::placeholder{
@@ -201,6 +202,7 @@ form{
 
 .name>label{
   font-weight: 500;
+  
 }
 
 .bottom{
